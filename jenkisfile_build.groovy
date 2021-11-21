@@ -4,7 +4,7 @@ pipeline{
     stages{
         stage("chekout code"){
             steps{
-                println "clone our code to our repo"
+                println "clone our code to our repository"
             }
         }
         stage("build code"){
