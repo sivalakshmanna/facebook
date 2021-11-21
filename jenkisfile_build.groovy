@@ -5,6 +5,7 @@ pipeline{
         stage("chekout code"){
             steps{
                 println "clone our code to our repository"
+                sh "ls -l"
             }
         }
         stage("build code"){
