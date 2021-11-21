@@ -1,4 +1,4 @@
-//Declarative pipeline
+
 pipeline{
     agent any
     environment {
