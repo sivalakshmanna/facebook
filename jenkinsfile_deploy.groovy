@@ -1,7 +1,7 @@
 //Declarative
 pipeline{
     agent any
-    environment {
+    parameters {
         string(name: 'BRANCH_NAME', defaultvalue: 'master', description: 'From which branch artifacts wants to deploy?')
         string(name: 'BUILD_NUM', defaultvalue: '', description: 'From which build number artifacts wants to deploy?')
     }
