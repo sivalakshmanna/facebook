@@ -1,9 +1,9 @@
 pipeline{
     agent any
    parameters {
-    string(name: 'BRANCH_NAME', defaultValue: 'master', description: 'From which branch artifacts want to deploy?')
-    string(name: 'BUILD_NUM', defaultValue: '', description: 'From which build number artifacts want to deploy?')
-    string(name: 'SERVER_IP', defaultValue: '', description: 'To  which want to deploy?')
+    string(name: 'BRANCH_NAME', defaultValue: 'master',)
+    string(name: 'BUILD_NUM', defaultValue: '',)
+    string(name: 'SERVER_IP', defaultValue: '',)
 
   }
     stages{
